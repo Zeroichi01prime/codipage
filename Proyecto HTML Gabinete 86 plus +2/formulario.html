@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>CordiPageForms</title>
+</head>
+<body>
+    <header>
+        <h1>CUESTIONARIO</h1>
+        <p>Complete el cuestionario por favor!</p>
+    </header>
+
+    <div class="container">
+        <form action="https://formsubmit.co/gabrielzeroichi@gmail.com" method="POST">
+            <section id="p01">
+                <h3>NOMBRE</h3>
+            </section>
+            <label>
+                <input type="text"  name="name">
+            </label>
+            <section id="p02">
+                <h3>CORREO</h3>
+            </section>
+            <label>
+                <input type="email"  name="email" required>
+            </label>
+            </section>
+        <section id="p0">
+            <h3>1 - ¿Cónoces algo sobre el departamento de Cordillera?</h3>
+        </section>
+        <label>
+            <input type="radio" value="1" name="Conoces_el_departamento">Si
+        </label>
+        <label>
+            <input type="radio" value="2" name="Conoces_el_departamento">No
+        </label>
+        </section>
+        <section id="p1">
+            <h3>2 - ¿Sabes dónde está ubicado?</h3>
+        </section>
+        <label>
+            <input type="radio" value="1" name="Sabes_donde_esta_ubicado">Si
+        </label>
+        <label>
+            <input type="radio" value="2" name="Sabes_donde_esta_ubicado">No
+        </label>
+        </section>
+        <section id="p2">
+            <h3>3 - ¿Te gustaria conocer Cordillera?</h3>
+        </section>
+        <label>
+            <input type="radio" value="1" name="Te_gustaria_conocer_cordillera">Si 
+        </label>
+        <label>
+            <input type="radio" value="2" name="Te_gustaria_conocer_cordillera">No
+        </label>
+        </section>
+        <section id="p3">
+            <h3>4 - ¿Te fue útil esta página web?</h3>
+        </section>
+        <label>
+            <input type="radio" value="1" name="Te_fue_la_pagina">Si
+        </label>
+        <label>
+            <input type="radio" value="2" name="Te_fue_la_pagina">No
+        </label>
+        </section>
+        <section id="p4">
+            <h3>5 - ¿Que apartado de la pagina te llamo más la atención?</h3>
+        </section>
+        <label>
+            <input type="radio" value="1" name="Que_te_gusto_mas">Diseño
+        </label>
+        <label>
+            <input type="radio" value="2" name="Que_te_gusto_mas">Música
+        </label>
+        <label>
+            <input type="radio" value="3" name="Que_te_gusto_mas">Información presentada
+        </label>
+        </section>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500//formulario.html">
+        </form>
+    </div>
+</body>
+</html>

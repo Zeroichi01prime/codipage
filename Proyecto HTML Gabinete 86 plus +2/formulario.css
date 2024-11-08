@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif, Tahoma, Verdana;
+}
+
+header {
+    text-align: center;
+    background: #d65708;
+    color:white;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    border: 2px solid #d65708;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #ccc;
+    margin-bottom: 3px;
+}
+
+label:hover {
+    background: #e38131;
+}
+
+button {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #76d7c8;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: #d65708;
+    color: white;
+}

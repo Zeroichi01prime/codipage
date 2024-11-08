@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="lugaresemblematicos.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <title>CORDIPAGE</title>
+</head>
+<body>
+    <header>
+        <botton onclick="PlayAudio(); girar();"  class="music-botton" id="boton"><i class='bx bx-music'></i>
+            <audio loop id="musica-main">
+                <source src="../Che Trompo Arasa.mp3" type="audio/mp3">
+            </audio>
+        </botton>
+
+        <a class="logo" href="../index.html">CORDIPAGE</a>
+
+        <ul class="navlist">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="/gastronomia/gastronomia.html">GASTRONOMÍA Y ACTIVIDAD LOCAL</a></li>
+            <li><a href="lugaresemblematicos.html">PUNTOS TURÍSTICOS</a></li>
+            <li><a href="/resenahistorica.html">RESEÑA HISTÓRICA</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon" ></div>
+    </header>
+    <section>
+        <div>
+            <h2 class="titulo">PUNTOS TURÍSTICOS</h2>
+        </div>
+        <P class="texto">
+            El departamento es mayormente conocido por su belleza natural en serranías, arroyos y cascadas. También es famoso por la Basílica de Caacupé.
+            Anímate a pasar un rato en estos increíbles lugares; desde arroyos hasta posadas, existe una gran variedad de sitios que puedes visitar en Cordillera.
+            Hemos seleccionado seis lugares que podrían ser de tu agrado. Trae tu tereré y embárcate en esta aventura.
+    </section>
+
+        <div class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        <h4>Basílica de Caacupé</h4>
+                        <p>Cordillera es muy conocida por ella</p>
+                        <a href="https://maps.app.goo.gl/xPet8a4Jip83kej49" target="_blank" class="ubicacion">Ubicación</a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h4>Arroyo Piribebuy</h4>
+                        <p>Lugar para divetirse en el agua</p>
+                        <a href="https://maps.app.goo.gl/uwazgBizNfjcvfis9" target="_blank" class="ubicacion">Ubicación</a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h4>CERRO CRISTO REY</h4>
+                        <p>Vista impresionante </p>
+                        <a href="https://maps.app.goo.gl/1LGsZmbtN3JX29AYA" target="_blank" class="ubicacion">Ubicación</a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h4>CERRO ARCO TOBATI</h4>
+                        <p>Cerro con un impresioante arco</p>
+                        <a href="https://maps.app.goo.gl/ppMVdXck92zmW4db6" target="_blank" class="ubicacion">Ubicación</a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c5" checked>
+            <label for="c5" class="card">
+                <div class="row">
+                    <div class="icon">5</div>
+                    <div class="description">
+                        <h4>LAS PALMERAS</h4>
+                        <p>Balnearío para divertirse en familia</p>
+                        <a href="https://maps.app.goo.gl/spvNzRzu4sKcSYnc8" target="_blank" class="ubicacion">Ubicación</a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c6" checked>
+            <label for="c6" class="card">
+                <div class="row">
+                    <div class="icon">6</div>
+                    <div class="description">
+                        <h4>POSADA SAN JACINTO</h4>
+                        <p>Un lindo lugar rústico para descansar</p>
+                        <a href="https://maps.app.goo.gl/xef5xtnuDEfLzVRu6" target="_blank" class="ubicacion">Ubicación</a>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+    <script src="header.js"></script>
+</body>
+</html>
